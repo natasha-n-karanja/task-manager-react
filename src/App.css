@@ -1,19 +1,68 @@
-body {
-  background: #f3f0f9;
-  font-family: sans-serif;
-  padding: 2rem;
-}
-
 .container {
-  max-width: 600px;
-  margin: auto;
-  background: white;
-  padding: 2rem;
-  border-radius: 12px;
-  border: 2px solid #caa8f5;
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 2px solid purple;
+  border-radius: 10px;
+  background-color: #f9f9f9;
 }
 
-h1 {
+.heading {
+  color: purple;
   text-align: center;
-  color: #5c2d91;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  padding: 6px;
+  margin-right: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  margin-left: 5px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button.add {
+  background-color: green;
+  color: white;
+}
+
+button.edit {
+  background-color: purple;
+  color: white;
+}
+
+button.save {
+  background-color: green;
+  color: white;
+}
+
+button.delete {
+  background-color: red;
+  color: white;
+}
+
+.task-text {
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.task-completed {
+  text-decoration: line-through;
+  color: green;
 }
